@@ -1,7 +1,10 @@
-﻿define(['jquery', 'knockout', 'router', 'bootstrap', 'knockout-projections'], function ($, ko, router) {
+define(['jquery', 'knockout', 'pages', 'router', 'bootstrap', 'knockout-projections'],
 
-        ko.components.register('home', { require: 'OneOnOneAnim/app/pages/home/home' });
-        ko.components.register('about', { require: 'OneOnOneAnim/app/pages/about/about' });
+        function ($, ko, pages, router) {
+
+            pages.forEach(function(page){
+               ko.components.register(page.name, { require: page.path});
+            });
 
         ko.applyBindings({ route: router.currentRoute });
 });
