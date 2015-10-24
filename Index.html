@@ -2,9 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Basic Scaffolding</title>
+    <link href="content/bootstrap.css" rel="stylesheet" />
+    <link href="content/bootstrap-theme.css" rel="stylesheet" />
 </head>
 <body>
 
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/OneOnOneAnim/Index.html">One On One</a>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="page1" class="container" style="padding-top:50px" data-bind="component: { name: route().page, params: route }"></div>
+
+    <footer class="navbar navbar-fixed-bottom">
+        <div class="container-fluid">
+            <p> &copy; 2015 - OneOnOne</p>
+        </div>
+    </footer>
+
 </body>
+
+<script src="app/boot/require.config.js"></script>
+<script data-main="/OneOnOneAnim/app/boot/startup.js" src="scripts/libs/require/require.js"></script>
+
 </html>
