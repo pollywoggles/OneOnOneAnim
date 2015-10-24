@@ -11,6 +11,7 @@ var require = {
         "bootstrap": "OneOnOneAnim/scripts/libs/bootstrap/bootstrap",
 
         //routing
+        "pages": "OneOnOneAnim/app/pages/pages",
         "crossroads": "OneOnOneAnim/scripts/libs/crossroads/crossroads",
         "signals": "OneOnOneAnim/scripts/libs/crossroads/signals",
         "hasher": "OneOnOneAnim/scripts/libs/crossroads/hasher",
