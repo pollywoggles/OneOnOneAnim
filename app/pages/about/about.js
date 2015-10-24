@@ -1,3 +1,18 @@
-/**
- * Created by paulbriggs on 10/23/15.
- */
+define(["knockout", "text!./about.html"],
+
+    function (ko, view) {
+
+        "use strict";
+
+        function viewModel(params) {
+
+            var self = this;
+
+
+
+            return self;
+
+        }
+
+        return { viewModel: viewModel, template: view };
+    });
