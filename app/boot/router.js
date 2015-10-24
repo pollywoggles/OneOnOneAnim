@@ -1,12 +1,15 @@
-﻿define(["jquery","knockout", "crossroads", "hasher"],
+define(["jquery","knockout", "pages", "crossroads", "hasher"],
 
-    function ($, ko, crossroads, hasher) {
+    function ($, ko, pages, crossroads, hasher) {
+
+    var paths = [];
+
+    pages.forEach(function(page){
+        paths.push( { url: page.url, params: { page: page.name } } );
+    });
 
     return new Router({
-        routes: [
-            { url: '', params: { page: 'home' } },
-            { url: 'about', params: { page: 'about' } }
-        ]
+        routes: paths
     });
 
 
