@@ -2,7 +2,7 @@
 
 ## General
 
-This is a SPA application, using an MVVM pattern. This app consists of front-end html, css, javascript. The intent is that it will use ajax calls to the server (server-side code has not been written, will determine what to use based on required features).
+This is a SPA application, using an MVVM pattern. This app consists of front-end html, css, javascript. The intent is that it will use ajax calls to the server (server-side code has not been written).
 
 Each page is located in the [pages directory](/app/pages)
 
