@@ -17,6 +17,9 @@ The application uses [crossroads.js](https://millermedeiros.github.io/crossroads
 
 [bootstrap](http://getbootstrap.com/) is used in Index.html (it can also be used in future html views). However, it can be safely removed. It does not (yet) have any dependencies.
 
+Less has been added, but is not being used.
+
+[all javascript libraries](scripts/libs)
 
 ##Index.html
 
