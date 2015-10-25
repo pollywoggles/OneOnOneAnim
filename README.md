@@ -1,8 +1,10 @@
 # OneOnOneAnim
 
-This is a SPA application, using the MVVM pattern.
+This is a SPA application, using an MVVM pattern.
 
 Each page is located in the [pages directory](/app/pages)
+
+A page consists of a view (html) and viewmodel (js) file. A sample "home" and "about" page are currently in the directory.
 
 The SPA page uses hasher
 
