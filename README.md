@@ -6,7 +6,7 @@ This is a Single-Page Application (SPA), using an MVVM pattern. This app consist
 
 Each SPA page is located in the [pages directory](/app/pages). A page url consists of a #hash, such as, #about for the "about" page.
 
-A page consists of a view (html) and viewmodel (js) file. Sample "home" and "about" pages are currently in the directory. Feel free to keep or remove.
+A page consists of a view (html) and viewmodel (js) file. Sample "home" and "about" pages are currently in the directory. Feel free to edit or remove sample pages.
 
 ###Javascript Libraries
 The application uses [crossroads.js](https://millermedeiros.github.io/crossroads.js/) for routing, as well as [hasher.js](https://github.com/millermedeiros/hasher/) for maintaining browser history within the SPA (i.e. so the browser's forward and backward buttons will work).
