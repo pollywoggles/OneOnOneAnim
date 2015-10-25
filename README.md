@@ -24,10 +24,10 @@ The _Index.html_ page (located at the root) is the main page for the Single-Page
 
 There are two important DOM elements in Index.html,
 
-1. anchors (such as ```<a href="#About">About</a>``` ), which open different pages in the SPA
-2. a special div with ```data-bind="component"```, which is the page component
+1. anchors (such as ```<a href="#About">About</a>``` )
+2. a special div with ```data-bind="component"```
 
-Change whatever you want, just make sure you keep the div component, as well as some way (such as an anchor) to jump between hash urls.
+Change whatever you want, just make sure you keep the div component (it is a SPA Page component), as well as some way (such as an anchor) to jump between hash urls.
 
 ##Adding pages
 1. Go to the [pages directory](/app/pages)
