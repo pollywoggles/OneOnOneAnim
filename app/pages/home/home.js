@@ -2,17 +2,17 @@ define(["knockout", "text!./home.html"],
 
     function (ko, view) {
 
-    "use strict";
+        "use strict";
 
-    function viewModel(params) {
+        function viewModel(params) {
 
-        var self = this;
+            var self = this;
 
+            //TODO: add more page functionality here
 
+            return self;
 
-        return self;
+        }
 
-    }
-
-    return { viewModel: viewModel, template: view };
-});
+        return { viewModel: viewModel, template: view };
+    });
