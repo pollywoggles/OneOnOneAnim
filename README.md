@@ -29,7 +29,7 @@ Change whatever you want, just make sure you keep the div component, as well as 
 6. Open [pages.js](/app/pages/pages.js)
 7. Inside pages.js, add a new element to the array, using this format, {name: "pageName", path: "OneOnOneAnim/app/pages/pageName/pageName", url: "pageName"}
 
-- name is used to register your new pages within javascript
+   - name is used to register your new pages within javascript
 
 - path is used to find your pageName.js file
 
