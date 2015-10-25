@@ -4,7 +4,7 @@
 
 This is a Single-Page Application (SPA), using an MVVM pattern. This app consists of front-end html, css, javascript. The intent is that it will use ajax calls to a server web api (server-side code has not been written). This separation allows front-end development on an code editor of choice, without requiring a heavy development environment.
 
-Each SPA page is located in the [pages directory](/app/pages)
+Each SPA page is located in the [pages directory](/app/pages). Each page url consists of a #hash, such as, #about for the "about" page.
 
 A page consists of a view (html) and viewmodel (js) file. A sample "home" and "about" page are currently in the directory.
 
