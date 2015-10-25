@@ -2,13 +2,15 @@
 
 ## General
 
-This is a SPA application, using an MVVM pattern.
+This is a SPA application, using an MVVM pattern. This app consists of front-end html, css, javascript. The intent is that it will use ajax calls to the server (server-side code has not been written, will determine what to use based on required features).
 
 Each page is located in the [pages directory](/app/pages)
 
 A page consists of a view (html) and viewmodel (js) file. A sample "home" and "about" page are currently in the directory.
 
 The application uses [crossroads.js](https://millermedeiros.github.io/crossroads.js/) for routing, as well as [hasher.js](https://github.com/millermedeiros/hasher/) for maintaining browser history within the SPA (i.e. so the browser's forward and backward buttons will work).
+
+Dependency management of all javascript files is handled with [require.js](http://requirejs.org/docs/api.html)
 
 ##Index.html
 
