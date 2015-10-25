@@ -2,32 +2,32 @@
 
 ## General
 
-This is a Single-Page Application (SPA), using an MVVM pattern. This app consists of front-end html, css, javascript. The intent is that it will use ajax calls to a server web api (server-side code has not been written). This separation allows front-end development on an code editor of choice, without requiring a heavy development environment.
+This is a Single-Page Application (SPA), using an MVVM pattern. This app consists of front-end html, css, javascript. The intent is to use ajax calls to a server web api (server-side code not written yet). Feel free to update this app on a code editor of choice; no heavy development environment is necessary.
 
-Each SPA page is located in the [pages directory](/app/pages). Each page url consists of a #hash, such as, #about for the "about" page.
+Each SPA page is located in the [pages directory](/app/pages). A page url consists of a #hash, such as, #about for the "about" page.
 
-A page consists of a view (html) and viewmodel (js) file. A sample "home" and "about" page are currently in the directory.
+A page consists of a view (html) and viewmodel (js) file. Sample "home" and "about" pages are currently in the directory. Feel free to keep or remove.
 
 ###Javascript Libraries
 The application uses [crossroads.js](https://millermedeiros.github.io/crossroads.js/) for routing, as well as [hasher.js](https://github.com/millermedeiros/hasher/) for maintaining browser history within the SPA (i.e. so the browser's forward and backward buttons will work).
 
-Dependency management of all javascript files is handled with [require.js](http://requirejs.org/docs/api.html)
+[require.js](http://requirejs.org/docs/api.html) manages javascript file dependencies. 
 
-[Knockoutjs](http://knockoutjs.com/) was used for the MVVM library. It is just one MV* library among any good options. A great comparison between various MV* libraries can be viewed in the [ToDo page](http://todomvc.com/).
+[Knockoutjs](http://knockoutjs.com/) was used for data-binding and the MVVM library in general. It is just one MV library among many good options. A great comparison between various MV libraries can be viewed in the [ToDo page](http://todomvc.com/).
 
-[bootstrap](http://getbootstrap.com/) is used in Index.html and the html views. It can be safely removed. It is only used for layout in html and does not have any javascript depending on it.
+[bootstrap](http://getbootstrap.com/) is used in Index.html (it can also be used in future html views). However, it can be safely removed. It does not (yet) have any dependencies.
 
 
 ##Index.html
 
-The Index.html page (located at the root) is the main page for the Single-Page Application. It's the host for the rest of the site. Currently is is using [bootstrap](http://getbootstrap.com/), but bootstrap is not necessary and can be safely removed if you choose.
+The _Index.html_ page (located at the root) is the main page for the Single-Page Application. It's the host for the rest of the site. Currently is is using [bootstrap](http://getbootstrap.com/), but bootstrap is not necessary and can be safely removed.
 
-There are two important elements in Index.html,
+There are two important DOM elements in Index.html,
 
 1. anchors (such as ```<a href="#About">About</a>``` ), which open different pages in the SPA
 2. a special div with ```_data-bind="component"_```, which is the page component
 
-Change whatever you want, just make sure you keep the div component, as well as some way (such as an anchor) to jump to new hash urls.
+Change whatever you want, just make sure you keep the div component, as well as some way (such as an anchor) to jump between hash urls.
 
 ##Adding pages
 1. Go to the [pages directory](/app/pages)
