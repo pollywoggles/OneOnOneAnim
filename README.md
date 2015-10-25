@@ -19,7 +19,7 @@ The application uses [crossroads.js](https://millermedeiros.github.io/crossroads
 
 [Less.js](scripts/libs/less) has been added, but is not being used.
 
-[all javascript libraries](scripts/libs)
+And finally, [all javascript libraries](scripts/libs)
 
 ##Index.html
 
