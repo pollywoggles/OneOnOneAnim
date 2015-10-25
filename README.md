@@ -24,7 +24,7 @@ The Index.html page (located at the root) is the main page for the Single-Page A
 
 There are two important elements in Index.html,
 
-1. anchors (such as ```<a href="#">Home</a>``` ), which open different pages in the SPA
+1. anchors (such as ```<a href="#About">About</a>``` ), which open different pages in the SPA
 2. a special div with ```_data-bind="component"_```, which is the page component
 
 Change whatever you want, just make sure you keep the div component, as well as some way (such as an anchor) to jump to new hash urls.
