@@ -8,7 +8,7 @@ define(["knockout", "text!./about.html"],
 
             var self = this;
 
-
+            //TODO: add more page functionality here
 
             return self;
 
