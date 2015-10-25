@@ -2,7 +2,7 @@
 
 This is a SPA application, using the MVVM pattern.
 
-Each page is located in the pages directory: [/app/pages]
+Each page is located in the [pages directory](/app/pages)
 
 The SPA page uses hasher
 
