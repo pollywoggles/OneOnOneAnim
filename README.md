@@ -11,7 +11,7 @@ A page consists of a view (html) and viewmodel (js) file. Sample "home" and "abo
 ###Javascript Libraries
 The application uses [crossroads.js](https://millermedeiros.github.io/crossroads.js/) for routing, as well as [hasher.js](https://github.com/millermedeiros/hasher/) for maintaining browser history within the SPA (i.e. so the browser's forward and backward buttons will work).
 
-[require.js](http://requirejs.org/docs/api.html) manages javascript file dependencies. Here is the (config file)[app/boot/require.config.js].
+[require.js](http://requirejs.org/docs/api.html) manages javascript file dependencies. Here is the [config file](app/boot/require.config.js).
 
 [Knockoutjs](http://knockoutjs.com/) was used for data-binding and the MVVM library in general. It is just one MV library among many good options. A great comparison between various MV libraries can be viewed in the [ToDo page](http://todomvc.com/).
 
