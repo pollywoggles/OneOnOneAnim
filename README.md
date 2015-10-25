@@ -2,7 +2,7 @@
 
 ## General
 
-This is a SPA application, using an MVVM pattern. This app consists of front-end html, css, javascript. The intent is that it will use ajax calls to a server web api (server-side code has not been written). This separation allows front-end in an code editor of choice, without needing to build a heavy development environment.
+This is a SPA application, using an MVVM pattern. This app consists of front-end html, css, javascript. The intent is that it will use ajax calls to a server web api (server-side code has not been written). This separation allows front-end development on an code editor of choice, without requiring a heavy development environment.
 
 Each SPA page is located in the [pages directory](/app/pages)
 
