@@ -13,7 +13,7 @@ The application uses [crossroads.js](https://millermedeiros.github.io/crossroads
 
 [require.js](http://requirejs.org/docs/api.html) manages javascript file dependencies. Here's the [config file](app/boot/require.config.js).
 
-[Knockoutjs](http://knockoutjs.com/) was used for data-binding and the MVVM library in general. I's just one MV option among many. A great comparison between various MV libraries can be viewed in the [ToDo page](http://todomvc.com/).
+[knockoutjs](http://knockoutjs.com/) is used for data-binding and the MVVM library in general. I's just one MV option among many. A great comparison between various MV libraries can be viewed in the [ToDo page](http://todomvc.com/).
 
 [bootstrap](http://getbootstrap.com/) is used in Index.html (it can also be used in future html views). However, it can be safely removed. It does not (yet) have any dependencies.
 
