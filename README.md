@@ -42,4 +42,5 @@ Change whatever you want, just make sure you keep the div component, as well as 
 ##Removing pages
 Any page can be removed, just reverse the _Adding pages_ steps. 
 
-
+##Agile Board
+An agile board for this project is located at [scrumy](https://scrumy.com/oneonone)
