@@ -31,9 +31,9 @@ Change whatever you want, just make sure you keep the div component, as well as 
 
    - name is used to register your new pages within javascript
 
-- path is used to find your pageName.js file
+   - path is used to find your pageName.js file
 
-- url is used by the router to show your page, you can use any name, but probably less confusing if you stick with the same name (in the example, we are using _pageName_)
+   - url is used by the router to show your page, you can use any name, but probably less confusing if you stick with the same name (in the example, we are using _pageName_)
 
 ##Removing pages
 Any page can be removed, just reverse the _Adding pages_ steps. 
