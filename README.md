@@ -15,6 +15,9 @@ Dependency management of all javascript files is handled with [require.js](http:
 
 [Knockoutjs](http://knockoutjs.com/) was used for the MVVM library. It is just one MV* library among any good options. A great comparison between various MV* libraries can be viewed in the [ToDo page](http://todomvc.com/).
 
+[bootstrap](http://getbootstrap.com/) is used in Index.html and the views, but it can be safely removed. Currently it is only used in the html and does not have any javascript depending on it.
+
+
 ##Index.html
 
 The Index.html page (located at the root) is the main page for the Single-Page Application. It's the host for the rest of the site. Currently is is using [bootstrap](http://getbootstrap.com/), but bootstrap is not necessary and can be safely removed if you choose.
