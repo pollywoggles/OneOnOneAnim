@@ -12,7 +12,7 @@ The application uses [crossroads.js](https://millermedeiros.github.io/crossroads
 
 Dependency management of all javascript files is handled with [require.js](http://requirejs.org/docs/api.html)
 
-[Knockoutjs](http://knockoutjs.com/) was used for the MVVM library. It is just one MV* library among any good options. A great comparison between various MVVM libraries can be viewed in the [ToDo page](http://todomvc.com/).
+[Knockoutjs](http://knockoutjs.com/) was used for the MVVM library. It is just one MV* library among any good options. A great comparison between various MV* libraries can be viewed in the [ToDo page](http://todomvc.com/).
 
 ##Index.html
 
