@@ -12,6 +12,8 @@ The application uses [crossroads.js](https://millermedeiros.github.io/crossroads
 
 Dependency management of all javascript files is handled with [require.js](http://requirejs.org/docs/api.html)
 
+[Knockoutjs](http://knockoutjs.com/) was used for the MVVM library. It is just one MV* library among any good options. A great comparison between various MVVM libraries can be viewed in the [ToDo page](http://todomvc.com/).
+
 ##Index.html
 
 The Index.html page (located at the root) is the main page for the Single-Page Application. It's the host for the rest of the site. Currently is is using [bootstrap](http://getbootstrap.com/), but bootstrap is not necessary and can be safely removed if you choose.
