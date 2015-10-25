@@ -23,8 +23,8 @@ Dependency management of all javascript files is handled with [require.js](http:
 The Index.html page (located at the root) is the main page for the Single-Page Application. It's the host for the rest of the site. Currently is is using [bootstrap](http://getbootstrap.com/), but bootstrap is not necessary and can be safely removed if you choose.
 
 There are two important elements in Index.html,
-  **anchors (such as ```<a href="#">Home</a>``` ), which open different pages in the SPA
-  **div with _data-bind="component"_, which is the page component
+  anchors (such as ```<a href="#">Home</a>``` ), which open different pages in the SPA
+  a special div with ```_data-bind="component"_```, which is the page component
 
 Change whatever you want, just make sure you keep the div component, as well as some way (such as an anchor) to jump to new hash urls.
 
