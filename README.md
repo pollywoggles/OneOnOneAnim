@@ -37,7 +37,7 @@ Change whatever you want, just make sure you keep the div component (it is a SPA
 2. Create a new directory for your page name, lets call it _pageName_
 3. Create two new files inside the directory: _pageName.html_ and _pageName.js_
 4. Paste the boilerplate code from another page.js (for instance, open _home.js_, and copy/paste its code into your new _pageName.js_ file)
-5. In your new _pageName.js_ file, in the first line, change the html reference to your new pageName, such as this, ```define(["knockout", *"text!./pageName.html"*]```
+5. In your new _pageName.js_ file, in the first line, change the html reference to your new pageName, such as this, ```define(["knockout", "text!./pageName.html"]```
 6. Open [pages.js](/app/pages/pages.js)
 7. Inside pages.js, add a new element to the array, using this format, ```{name: "pageName", path: "OneOnOneAnim/app/pages/pageName/pageName", url: "pageName"}```
 
