@@ -43,7 +43,7 @@ Change whatever you want, just make sure you keep the div component (it is a SPA
 
    - *name* is used to register your new pages within javascript
 
-   - *path* is used by [require.js](http://requirejs.org/docs/api.html) to find your pageName.js file (but leave off the .js extension of your javascript file name)
+   - *path* is used by [require.js](http://requirejs.org/docs/api.html) to find your pageName.js file (leave off the .js extension of your javascript file name)
 
    - *url* is used by the router to show your page, you can use any name, but probably less confusing if you stick with the same name (in the example, we are using _pageName_)
 
