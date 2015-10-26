@@ -36,16 +36,16 @@ Change whatever you want, just make sure you keep the div component (it is a SPA
 1. Go to the [pages directory](/app/pages)
 2. Create a new directory for your page name, lets call it _pageName_
 3. Create two new files inside the directory: _pageName.html_ and _pageName.js_
-4. Paste the boilerplate code from another page.js (for instance, open home.js, and copy/paste its code into your new pageName.js file)
-5. In your new pageName.js file, in the first line, change the html reference to your new pageName, such as this, _define(["knockout", *"text!./pageName.html"*]_
+4. Paste the boilerplate code from another page.js (for instance, open _home.js_, and copy/paste its code into your new _pageName.js_ file)
+5. In your new _pageName.js_ file, in the first line, change the html reference to your new pageName, such as this, _define(["knockout", *"text!./pageName.html"*]_
 6. Open [pages.js](/app/pages/pages.js)
 7. Inside pages.js, add a new element to the array, using this format, ```{name: "pageName", path: "OneOnOneAnim/app/pages/pageName/pageName", url: "pageName"}```
 
    - *name* is used to register your new pages within javascript
 
-   - *path* is used by [require.js](http://requirejs.org/docs/api.html) to find your pageName.js file (leave off the .js extension of your javascript file name)
+   - *path* is used by [require.js](http://requirejs.org/docs/api.html) to find your _pageName.js_ file (leave off the .js extension of your javascript file name)
 
-   - *url* is used by the router to show your page, you can use any name, but probably less confusing if you stick with the same name (in the example, we are using _pageName_)
+   - *url* is used by the router to show your page, you can use any name, but it's less confusing if you stick with the same name (in the example, we are using _pageName_)
 
 ##Removing pages
 Any page can be removed, just reverse the _Adding pages_ steps. 
