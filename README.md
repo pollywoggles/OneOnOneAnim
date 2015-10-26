@@ -39,11 +39,11 @@ Change whatever you want, just make sure you keep the div component (it is a SPA
 4. Paste the boilerplate code from another page.js (for instance, open home.js, and copy/paste its code into your new pageName.js file)
 5. In your new pageName.js file, in the first line, change the html reference to your new pageName, such as this, _define(["knockout", *"text!./pageName.html"*]_
 6. Open [pages.js](/app/pages/pages.js)
-7. Inside pages.js, add a new element to the array, using this format, {name: "pageName", path: "OneOnOneAnim/app/pages/pageName/pageName", url: "pageName"}
+7. Inside pages.js, add a new element to the array, using this format, ```{name: "pageName", path: "OneOnOneAnim/app/pages/pageName/pageName", url: "pageName"}```
 
    - *name* is used to register your new pages within javascript
 
-   - *path* is used to find your pageName.js file
+   - *path* is used by [require.js](http://requirejs.org/docs/api.html) to find your pageName.js file
 
    - *url* is used by the router to show your page, you can use any name, but probably less confusing if you stick with the same name (in the example, we are using _pageName_)
 
