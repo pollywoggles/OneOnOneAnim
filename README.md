@@ -47,6 +47,8 @@ Change whatever you want, just make sure you keep the div component (it is a SPA
 
    - *url* is used by the router to show your page, you can use any name, but it's less confusing if you stick with the same name (in the example, we are using _pageName_)
 
+(use the included sample pages, _home_ and _about_, as a guide)
+
 ##Removing pages
 Any page can be removed, just reverse the _Adding pages_ steps. 
 
