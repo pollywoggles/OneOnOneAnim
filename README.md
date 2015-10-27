@@ -35,6 +35,7 @@ There are two important DOM elements in Index.html,
 2. a special div with ```data-bind="component"```
 
 Change whatever you want, just make sure, 
+
 1. you keep the div component (it's a SPA Page component), as well as,
 2. some way (such as an anchor) to jump between hash urls.
 
