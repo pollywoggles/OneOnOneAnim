@@ -27,14 +27,16 @@ And finally, [all the javascript libraries](scripts/libs)
 
 ##Index.html
 
-The [Index.html](Index.html) page (located at the root) is the main SPA page. It's the host for the rest of the site. Currently it's using [bootstrap](http://getbootstrap.com/), but bootstrap can be safely removed.
+The [Index.html](Index.html) page (located at the root) is the main SPA page. It's the host for the rest of the site. Currently it's using [bootstrap](http://getbootstrap.com/) classes, but bootstrap can be safely removed.
 
 There are two important DOM elements in Index.html,
 
 1. anchors (such as ```<a href="#About">About</a>``` )
 2. a special div with ```data-bind="component"```
 
-Change whatever you want, just make sure you keep the div component (it is a SPA Page component), as well as some way (such as an anchor) to jump between hash urls.
+Change whatever you want, just make sure, 
+1. you keep the div component (it's a SPA Page component), as well as,
+2. some way (such as an anchor) to jump between hash urls.
 
 ##Adding pages
 1. Go to the [pages directory](/app/pages)
