@@ -34,9 +34,9 @@ There are two important DOM elements in Index.html,
 1. anchors (such as ```<a href="#About">About</a>``` )
 2. a special div with ```data-bind="component"```
 
-Change whatever you want, just make sure, 
+Change whatever you want, just, 
 
-1. you keep the div component (it's a SPA Page component), as well as,
+1. keep the div component (it's used to render the SPA pages), 
 2. some way (such as an anchor) to jump between hash urls.
 
 ##Adding pages
