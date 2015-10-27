@@ -27,7 +27,7 @@ And finally, [all the javascript libraries](scripts/libs)
 
 ##Index.html
 
-The (Index.html)[Index.html] page (located at the root) is the main SPA page. It's the host for the rest of the site. Currently it's using [bootstrap](http://getbootstrap.com/), but bootstrap can be safely removed.
+The [Index.html](Index.html) page (located at the root) is the main SPA page. It's the host for the rest of the site. Currently it's using [bootstrap](http://getbootstrap.com/), but bootstrap can be safely removed.
 
 There are two important DOM elements in Index.html,
 
